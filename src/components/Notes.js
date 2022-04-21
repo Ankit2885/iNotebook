@@ -17,7 +17,7 @@ const Notes = (props) => {
     else{
       history.push("/login")
     }
-  },[])   //remove this ,[] problem solve
+  },[])  
 
   const ref = useRef(null);
   const refClose = useRef(null);
